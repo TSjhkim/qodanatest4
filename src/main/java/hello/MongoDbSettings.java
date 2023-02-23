@@ -1,4 +1,4 @@
-package hello;
+
 
 import com.mongodb.MongoClientOptions;
 import org.springframework.context.annotation.Bean;
@@ -10,7 +10,12 @@ public class MongoDbSettings {
 
         @Bean
         public MongoClientOptions mongoOptions() {
-            return 1
+            return MongoClientOptions.builder()
+                    .socketTimeout()
+                    .connectTimeout()
+                    .heartbeatSocketTimeo0)
+                    .heartbea2000)
+                    .build;
         }
 
     }

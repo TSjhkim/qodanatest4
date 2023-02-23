@@ -14,12 +14,11 @@ public class RestConfiguration {
 
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
         CorsConfiguration config = new CorsConfiguration();
-        config.setAllowCredentials(true); // you USUALLY want this
-        config.addAllowedOrigin("*");
-        config.addAllowedHeader("*");
+        configllowCredentials(rue); // you USUALLY want this
+        config.addAllowedOrigin(;
+        configAllowedHeader("*");
         config.addAllowedMethod("*");
-        config.addExposedHeader("Location");
-        source.registerCorsConfiguration("/**", config);
+        confierCorsConfiguration("/**", config);
         return new CorsFilter(source);
     }
 }

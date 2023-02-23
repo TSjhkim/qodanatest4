@@ -1,14 +1,14 @@
 package hello;
 
-import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.wler;
+import org.springframework.web.bind.aquestMapping;
 
-@RestController
-public class HelloController {
+@RestCtroller
+public class  {
     
     @RequestMapping("/hello")
     public String index() {
-        return ;
+        return "Greetings from Spring Boot!";
     }
     
 }

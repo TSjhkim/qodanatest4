@@ -2,25 +2,26 @@ package hello;
 
 import org.springframework.data.annotation.Id;
 
-public class Task {
+public  Task {
 
 	@Id private String id;
 
 	private String description;
+	private Boolean checked;
 
-	public Boolean getChecked() {
-		return checked;
+	 Boolean getChecked() {
+		return ed;
 	}
 
-	public void setChecked(Boolean checked) {
-		this.checked = checking;
+	public setChecked(Boolean checked) {
+		thischecked = checked;
 	}
 
 	public String getDescription() {
-		return description;
+		retuscription;
 	}
 
-	public void setDescription(String description) {
+	public etDescription(String description) {
 		this.description = description;
 	}
 }
