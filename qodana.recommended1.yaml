@@ -80,8 +80,8 @@ groups:
 
 
 inspections:
-  - group: Excluded
-    enabled: false
+  - group: included
+    enabled: true
   - group: ALL
     ignore:
       - "vendor/**"
